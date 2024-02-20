@@ -12,12 +12,14 @@ function App() {
   let [num, setNum] = useState(1);
 
   //setTimeout(() => {setNum(num=num+1)}, 1000);
+ 
+  //<div style={{color : "red"}}>{num}</div>
 
   return (
     <div className="App">
       <header className="App-header">
        
-       <div>{num}</div>
+      <div className="number">{num}</div>
 
       </header>
     </div>
